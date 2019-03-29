@@ -134,9 +134,9 @@ nav.navbar {
     color: rgba(149, 147, 147, 0.2);
 }
 
-@media (min-width: ) {
-    #our_story h1{
-
+@media (min-width: 320px) {
+    #our_story h2{
+        font-size: 18em;
     }
 }
 
