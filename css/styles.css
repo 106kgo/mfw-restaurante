@@ -134,12 +134,6 @@ nav.navbar {
     color: rgba(149, 147, 147, 0.2);
 }
 
-@media (min-width: 320px) {
-    #our_story h2{
-        font-size: 18em;
-    }
-}
-
 #review {
     background-image: url('../img/food_review.jpg');
     background-size: cover;
@@ -225,4 +219,10 @@ nav.navbar {
 
 #menu .nav-tabs li a {
     border: none;
+}
+
+@media (min-width: 320px) {
+    #our_story h2{
+        font-size: 18em;
+    }
 }
