@@ -1,5 +1,14 @@
 @import url(http://fonts.googleapis.com/css?family=Lobster|Raleway:700,400,300);
 
+#our_story, #review, #menu, #contact {
+    min-height: 600px;
+}
+
+.container-fluid {
+    padding: 0;
+    margin: 0;
+}
+
 .nav li a:hover {
     background-color: transparent;
 }
@@ -98,9 +107,6 @@ nav.navbar {
 
 /* OUR STORY Section */
 
-#our_story, #review, #menu {
-    min-height: 600px;
-}
 
 #our_story .row {
     margin-top: 30px;
@@ -225,4 +231,54 @@ nav.navbar {
     #our_story h2{
         font-size: 18em;
     }
+}
+
+/* CONTACT */
+
+.contact_form {
+    background-color: #ff6633;
+    color: #fff;
+    border: 1px solid #fff;
+}
+
+.contact_form form {
+    padding: 5% 0;
+}
+
+.contact_form span {
+    color: #ff0d06;
+}
+
+#contact {
+    background-color: #f8512f;
+}
+
+#contact h1 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 100;
+    color: #fff;
+    font-size: 4em;
+}
+
+#contact p {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+    color: #fff;
+    font-size: 1em;
+}
+
+#contact_fine_print {
+    font-size: 12px !important;
+    text-align: center;
+}
+
+address {
+    color: #fff;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+}
+
+.contact_bottom {
+    margin-top: 50px;
+    margin-bottom: 25px;
 }
