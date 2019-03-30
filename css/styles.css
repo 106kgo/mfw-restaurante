@@ -1,5 +1,30 @@
 @import url(http://fonts.googleapis.com/css?family=Lobster|Raleway:700,400,300);
 
+/*--\/\/---- GLOBAL ----\/\/----*/
+#our_story, #review, #menu, #contact {
+    min-height: 600px;
+}
+
+.font1 {
+    font-family: 'Lobster', serif;
+}
+
+.font2 {
+    font-family: 'Raleway', sans-serif;
+}
+
+.ftr-color {
+    color: #fff;
+}
+
+/*----/\/\--- GLOBAL -/\/\-----*/
+
+
+.container-fluid {
+    padding: 0;
+    margin: 0;
+}
+
 .nav li a:hover {
     background-color: transparent;
 }
@@ -81,7 +106,6 @@ nav.navbar {
 }
 
 .btn-primary {
-    color: #fff;
     background-color: transparent;
 }
 
@@ -94,34 +118,28 @@ nav.navbar {
     border-color: transparent;
 }
 
-/* END OF CORROUSEL */
+/*-------------- END OF CORROUSEL --------------*/
 
-/* OUR STORY Section */
+/*-------------- OUR STORY Section --------------*/
 
-#our_story, #review, #menu {
-    min-height: 600px;
-}
 
 #our_story .row {
     margin-top: 30px;
 }
 
 #our_story h1 {
-    font-family: 'Lobster', serif;
     color: #f8512f;
     font-size: 6em;
     margin-top: 0;
 }
 
 #our_story h3 {
-    font-family: 'Raleway', sans-serif;
     font-weight: 700;
     font-size: 2em;
     margin-top: 0;
 }
 
 #our_story p {
-    font-family: 'Raleway', sans-serif;
     font-weight: 300;
 }
 
@@ -151,21 +169,18 @@ nav.navbar {
 }
 
 #review h1 {
-    font-family: 'Lobster', cursive;
     font-size: 5em;
     color: #f8512f;
     text-shadow: 1px 1px 5px #0a0a0a;
 }
 
 #review p {
-    color: #fff;
-    font-family: 'Raleway', san-serif;
     font-weight: 300;
     font-size: 2em;
     text-shadow: 1px 1px 5px #0a0a0a;
 }
 
-/* MENU Section */
+/*----------- MENU Section -----------*/
 
 #menu {
     background-image: url('../img/black_linen.png');
@@ -176,29 +191,24 @@ nav.navbar {
 }
 
 #menu h1 {
-    color: #fff;
-    font-family: 'Lobster', cursive;
     font-size: 6em;
     text-shadow: 1px 1px 5px #0a0a0a;
 }
 
 #menu h3 {
     text-align: center;
-    font-family: 'Raleway', sans-serif;
     font-weight: 700;
     font-size: 2em;
 }
 
 #menu a {
     color: #f8512f;
-    font-family: 'Raleway', sans-serif;
     font-weight: 700;
     text-transform: uppercase;
 }
 
 #menu p {
     text-align: justify;
-    font-family: 'Raleway', sans-serif;
     font-weight: 300;
 }
 
@@ -225,4 +235,47 @@ nav.navbar {
     #our_story h2{
         font-size: 18em;
     }
+}
+
+/*------------------ CONTACT ------------------*/
+
+.contact_form {
+    background-color: #ff6633;
+    border: 1px solid #fff;
+}
+
+.contact_form form {
+    padding: 5% 0;
+}
+
+.contact_form span {
+    color: #ff0d06;
+}
+
+#contact {
+    background-color: #f8512f;
+}
+
+#contact h1 {
+    font-weight: 100;
+    font-size: 4em;
+}
+
+#contact p {
+    font-weight: 300;
+    font-size: 1em;
+}
+
+#contact_fine_print {
+    font-size: 12px !important;
+    text-align: center;
+}
+
+address {
+    font-weight: 300;
+}
+
+.contact_bottom {
+    margin-top: 50px;
+    margin-bottom: 25px;
 }
